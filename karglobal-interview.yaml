@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: Karglobal-interview
+  name: Karglobal-interview
+  namespace: Mohit
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: Karglobal-interview
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: Karglobal-interview
+    spec:
+      containers:
+      - image: combination:latest
+        name: combination
+        resources: {}
+status: {}
