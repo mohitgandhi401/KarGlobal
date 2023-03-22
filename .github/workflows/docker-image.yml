@@ -31,5 +31,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/KarGlobal:${{github.ref_name }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/karglobal:${{github.ref_name }}
     
