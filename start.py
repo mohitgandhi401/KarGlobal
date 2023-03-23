@@ -21,4 +21,4 @@ def data():
         return render_template('data.html',your_list = combination(number))
  
 if __name__ == "__main__":
-    app.run(host='localhost', port=5000)
+    app.run(ssl_context='adhoc')
