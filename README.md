@@ -8,3 +8,4 @@
 6) I have also included kubernetes deployment in the repository which can be used to deploy the web application in any specific cluster. 
 It can be done using kubectl (manually) or using CD tools like ArgoCD to do it.
 7) WAF can be used to secure it further.
+8) Screenshots are added to results folder.
